@@ -1,0 +1,23 @@
+View zum Listen aller Daten
+	- Keine Eingabe möglich
+	- Filterungsmöglichkeiten
+	- Summen der Posten
+	- Gesammtsumme
+	- Gliederung nach Jahren?
+	
+View zur Eingabe neuer Daten
+	- Posten wählbar (Combobox)
+		- neue Posten erstellbar
+		- Default auf zuletzt genutzten Posten
+	- Datumseingabe (default: Heute)
+	- mehrere Einträge gleichzeitig?
+	- Dauerhafte Einträge/Zyklisch jeden Monat
+		- werden immer zum Ende des Monats hinzugefügt?
+
+View zur Auswertung des letzten Montas
+	- Liste aller Daten des Monats
+	- Summen der Posten
+	- Gesammtsumme
+	- Graph Ausgaben/Datum
+
+	 
