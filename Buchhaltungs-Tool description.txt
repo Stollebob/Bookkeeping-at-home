@@ -14,10 +14,14 @@ View zur Eingabe neuer Daten
 	- Dauerhafte Einträge/Zyklisch jeden Monat
 		- werden immer zum Ende des Monats hinzugefügt?
 
-View zur Auswertung des letzten Montas
+View zur Auswertung des letzten Monats
 	- Liste aller Daten des Monats
-	- Summen der Posten
+	- Summen der Posten						<- Wie realisierbar?
 	- Gesammtsumme
 	- Graph Ausgaben/Datum
+
+Backend
+	- SQLite DB für die Daten
+	- XML Konfiguration
 
 	 

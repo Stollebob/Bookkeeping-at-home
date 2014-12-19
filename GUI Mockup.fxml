@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="692.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane layoutX="14.0" layoutY="14.0" prefHeight="432.0" prefWidth="665.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Insert new Data">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+            <Tab text="Data of this month">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView layoutX="14.0" layoutY="14.0" prefHeight="334.0" prefWidth="252.0">
+                          <columns>
+                            <TableColumn prefWidth="85.0" text="Betrag" />
+                            <TableColumn minWidth="1.0" prefWidth="110.0" text="Datum" />
+                              <TableColumn editable="false" prefWidth="56.0" text="Posten" />
+                          </columns>
+                        </TableView>
+                        <Label layoutX="14.0" layoutY="355.0" text="Summe gesammt:">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="144.0" layoutY="355.0" text="Daten">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="372.0" text="Summe der Posten:">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="144.0" layoutY="372.0" text="Daten">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <StackedAreaChart layoutX="280.0" layoutY="13.0" prefHeight="342.0" prefWidth="371.0" title="Ausgaben pro Zeit und Posten">
+                          <xAxis>
+                            <NumberAxis minorTickVisible="false" />
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis side="LEFT" />
+                          </yAxis>
+                        </StackedAreaChart>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+          <Tab text="All Data">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
